@@ -1,5 +1,5 @@
 ---
-# handlers file for mediapeers.virtualbox
+# handlers file for stefanhorning.virtualbox
 
 - name: restart vboxweb-service
   service:

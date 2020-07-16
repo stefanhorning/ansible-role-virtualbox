@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/mediapeers/ansible-role-virtualbox.svg?branch=master)](https://travis-ci.com/mediapeers/ansible-role-virtualbox)
+[![Build Status](https://travis-ci.com/stefanhorning/ansible-role-virtualbox.svg?branch=master)](https://travis-ci.com/stefanhorning/ansible-role-virtualbox)
 
 # Ansible role Virtualbox
 Installs headless [Virtualbox](https://www.virtualbox.org/) and [phpVirtualbox](https://github.com/phpvirtualbox/phpvirtualbox) for remote access
@@ -24,19 +24,19 @@ There is more variables you can overwrite when using this role. For a full list 
 Depends on no other roles.
 
 ## Example Playbook
-Copy this role into the roles/mediapeers.virtualbox dir in your Ansible project. Preferably add it as a submodule.
-You can also install it with `ansible-galaxy install mediapeers.virtualbox`.
+Copy this role into the roles/stefanhorning.virtualbox dir in your Ansible project. Preferably add it as a submodule.
+You can also install it with `ansible-galaxy install stefanhorning.virtualbox`.
 Then use it like so:
 
 ```yaml
 - name: My playbook
   hosts: servers
   roles:
-    - { role: mediapeers.virtualbox, virtualbox_user: vbox, virtualbox_user_pw: supersecretvalue }
+    - { role: stefanhorning.virtualbox, virtualbox_user: vbox, virtualbox_user_pw: supersecretvalue }
 ```
 
 ## License
 BSD
 
 ## Author Information
-Stefan Horning <horning@mediapeers.com>
+Stefan Horning

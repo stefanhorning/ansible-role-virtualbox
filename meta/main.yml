@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Stefan Horning <horning@mediapeers.com>
+  author: Stefan Horning <stefan@hornings.de>
   description: Installs VirtualBox and phpVirtualBox on a headless Ubuntu server.
   company: Mediapeers
   license: BSD

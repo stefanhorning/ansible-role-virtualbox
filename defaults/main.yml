@@ -1,5 +1,5 @@
 ---
-# defaults file for mediapeers.virtualbox
+# defaults file for stefanhorning.virtualbox
 
 virtualbox_version: 5.2 # could also be 5.0 or 4.3 etc.
 # Sub versions for Vbox extension packs and phpVirtualbox:

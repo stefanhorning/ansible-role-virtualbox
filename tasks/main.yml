@@ -1,5 +1,5 @@
 ---
-# tasks file for mediapeers.virtualbox
+# tasks file for stefanhorning.virtualbox
 
 - include_vars: "{{ item }}"
   with_first_found:
